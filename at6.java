@@ -13,8 +13,7 @@ public class at6 {
 
         System.out.println("Quantos pacientes deseja cadastrar?");
         int total = input.nextInt();
-        input.nextLine(); // Consumir a quebra de linha
-
+        input.nextLine(); 
         // Cadastro
         for (int i = 0; i < total; i++) {
             System.out.println("Digite o nome:");
@@ -27,7 +26,7 @@ public class at6 {
 
             System.out.println("Digite a idade:");
             int idade = input.nextInt();
-            input.nextLine(); // Consumir a quebra de linha
+            input.nextLine(); 
             idades.add(idade);
 
             System.out.println("Digite o diagnóstico do paciente:");
