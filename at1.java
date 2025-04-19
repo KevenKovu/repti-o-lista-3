@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class at1 {
     public String porcentagem(float C4,float C5,float C7,float C12){
         float total = C4+C5+C7+C12;
-        System.out.println(total);
         C4 /=total;
-        System.out.println(C4);
         C5 /=total;
         C7/=total;
         C12 /=total;
@@ -21,7 +19,7 @@ public class at1 {
         Scanner input = new Scanner(System.in);
         do {
         
-            System.out.println("Digite o número do canal e quantas pessoas estão assistindo: ");
+            System.out.println("Digite o número do canal e quantas pessoas estão assistindo(canais 4,5,7,12;0 =sair): ");
             opc = input.nextInt();
             switch (opc) {
                 case 4:
