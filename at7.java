@@ -49,7 +49,7 @@ public class at7 {
         System.out.println("\nCadastrar Novo Produto:");
         System.out.print("Código do produto: ");
         int codigo = input.nextInt();
-        input.nextLine();  // Limpar buffer
+        input.nextLine();   
         
         System.out.print("Nome do produto: ");
         String nome = input.nextLine();
@@ -57,8 +57,7 @@ public class at7 {
         System.out.print("Valor unitário do produto: ");
         double valor = input.nextDouble();
         
-        input.nextLine();  // Limpar buffer
-        
+        input.nextLine();   
         System.out.print("Tipo de unidade (ex: kg, unidade, litro): ");
         String unidade = input.nextLine();
         
@@ -86,7 +85,7 @@ public class at7 {
         if (index == -1) {
             System.out.println("Produto não encontrado.");
         } else {
-            input.nextLine(); // Limpar buffer
+            input.nextLine();  
             
             System.out.print("Novo nome do produto: ");
             nomes.set(index, input.nextLine());
@@ -94,7 +93,7 @@ public class at7 {
             System.out.print("Novo valor unitário do produto: ");
             valores.set(index, input.nextDouble());
             
-            input.nextLine(); // Limpar buffer
+            input.nextLine();  
             
             System.out.print("Novo tipo de unidade: ");
             unidades.set(index, input.nextLine());
